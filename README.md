@@ -19,7 +19,7 @@ docker build -t my-flask-app .
 docker run -p 5001:5001 my-flask-app
 
 Access the web interface:
-Open your web browser and go to http://localhost:5000 to access the Toy Robot interface.
+Open your web browser and go to http://localhost:5001 to access the Toy Robot interface.
 
 API Endpoints
 POST /place: Place the robot on the tabletop at a specified position.
