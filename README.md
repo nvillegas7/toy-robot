@@ -29,7 +29,7 @@ This is a Flask web application that simulates the behavior of a toy robot movin
     docker build -t my-flask-app .
     ```
 
-4. Run the Docker container:
+4. Run the Docker container (Unit tests are automatically ran in this part as well):
     ```sh
     docker run -p 5001:5001 my-flask-app
     ```
