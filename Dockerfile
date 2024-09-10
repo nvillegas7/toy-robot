@@ -18,4 +18,4 @@ EXPOSE 5000
 ENV FLASK_APP=app.py
 
 # Run app.py when the container launches
-CMD ["flask", "run", "--host", "0.0.0.0", "--port", "5001"]
+CMD ["sh", "-c", "python -m unittest discover -s tests && flask run --host 0.0.0.0 --port 5001"]
